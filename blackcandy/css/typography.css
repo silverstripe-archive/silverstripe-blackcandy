@@ -48,7 +48,6 @@
 
 .typography li {
 	margin: 5px 10px;
-	font-size: 1.2em;
 }
 
 /* HEADER STYLES */
@@ -113,6 +112,14 @@
  	display: block;
 	margin: 10px 0 -10px 0;
 	color: #777;
+}
+
+.typography q {
+	display:block;
+	font-size:0.8em;
+	margin:1em 1em;
+	padding:0.5em;
+	border:1px #ccc solid;;
 }
 
 /* TABLE STYLING */
