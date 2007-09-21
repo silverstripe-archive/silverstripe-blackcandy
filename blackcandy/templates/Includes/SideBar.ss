@@ -6,7 +6,7 @@
 			<% end_control %>
   		</h3>
   		
-  		<ul>
+  		<ul id="Menu2">
 		  	<% control Menu(2) %>
   	    		<% if Children %>
 			  	    <li class="$LinkingMode"><a href="$Link" title="Go to the $Title.XML page" class="$LinkingMode levela"><span><em>$MenuTitle</em></span></a>
