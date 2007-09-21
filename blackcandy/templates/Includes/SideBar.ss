@@ -9,9 +9,9 @@
   		<ul>
 		  	<% control Menu(2) %>
   	    		<% if Children %>
-			  	    <li class="$LinkingMode"><a href="$Link" title="Go to the $Title.XML page" class="$LinkingMode Nobottom">$MenuTitle</a>
+			  	    <li class="$LinkingMode"><a href="$Link" title="Go to the $Title.XML page" class="$LinkingMode levela"><span><em>$MenuTitle</em></span></a>
 	  	    	<% else %>
-		  			<li><a href="$Link" title="Go to the $Title.XML page" class="$LinkingMode">$MenuTitle</a>
+		  			<li><a href="$Link" title="Go to the $Title.XML page" class="$LinkingMode levela"><span><em>$MenuTitle</em></span></a>
 				<% end_if %>	  
 	  		
 	  			<% if LinkOrSection = section %>
@@ -21,7 +21,7 @@
 				 				<ul>
 								 	<span class="roundWhite">
 								  	<% control Children %>
-						  	  			<li><a href="$Link" title="Go to the $Title.XML page" class="$LinkingMode">$MenuTitle.LimitCharacters(22)</a></li>
+						  	  			<li><a href="$Link" title="Go to the $Title.XML page" class="$LinkingMode levelb"><span><em>$MenuTitle.LimitCharacters(22)</em></span></a></li>
  				 					<% end_control %>
  				 					</span>
 			 				 	</ul>

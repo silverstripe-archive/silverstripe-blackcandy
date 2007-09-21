@@ -26,13 +26,6 @@ caption, th, td {
 	text-align: left;
 	font-weight: normal;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: "";
-}
-blockquote, q {
-	quotes: "" "";
-}
 
 html {
 	background: #626467 url(../images/bg.gif) repeat;
@@ -92,7 +85,6 @@ img {
 /*** Main Nav ***/
 #Navigation {
 	width: 768px;
-	padding-top: 5px;
 	margin: 0 auto;
 	overflow: hidden;
 	background: #4ea3d7 url(../images/headerRounded.gif) no-repeat center bottom;
@@ -189,7 +181,8 @@ p#Remember label {
 	border-bottom: 1px solid #eee;
 }
 
-/*** Sidebar ***/
+/*** Sidebar 
+*********************)***/
 #Sidebar { 
  	width: 200px; 
 	float: left;  
@@ -197,7 +190,7 @@ p#Remember label {
 	padding: 0;
 	}
 	#Sidebar .sidebarBox {
-	margin: 0;
+	margin: 0 0 5px 0;
 	background: #EFEFEF url(../images/sidebarHeader.gif) no-repeat left top; 
 	min-height:35px; 
 	}
@@ -209,174 +202,268 @@ p#Remember label {
 	 	clear: both;
 	 	margin: 10px 10px 0 10px !important;
 	 }
-  	#Sidebar li { 
-	   	font-size: 1em; 
-		color: #7A7C7E; 
-		margin: 1px 0 1px 10px;
-		list-style: none;
-		margin-bottom: 5px; 
-		margin-left: 4px;
-		}
-	#Sidebar li a.link {
-		display: block;
-		width: 170px;
-		text-indent: 8px;
-		font-size: 1.2em;
-		height: 21px;
-		line-height: 21px;
-		color: #898989;
-	}
-	#Sidebar li a:hover {
-		background: #DCDCDC url(../images/sidebarLinkHoverBg.gif) no-repeat top left;
-		color: #666;
-		width: 190px;
-		text-decoration: none;
-	}
-	#Sidebar li a.current,
-	#Sidebar li a.section,
-	#Sidebar li a.section:hover,
-	#Sidebar li a.current:hover {
-	 	display: block;
-		width: 185px;
-		margin-bottom: 0;
-		line-height: 21px;
-		height: 21px;
-		padding-top: 2px;
-		font-size: 1.2em;
-		text-indent: 8px;
-		padding: 0;
-		font-weight: 700;
-		background: #DCDCDC url(../images/sidebarLinkCurrentBg.png) no-repeat top left;
-		color: #666;
-	}
-	#Sidebar li ul {
-		height: 100%;
-		position: relative;
-		margin: -4px 0 0 0;
-		width: 185px;
-		padding: 4px 0 10px 0;
-		background: #DCDCDC url(../images/sidebarSectionBottom.png) no-repeat bottom left;
-	}
-	#Sidebar li ul li ul {
-		background: #DCDCDC;
-	}
-	#Sidebar li ul li {
-		width: 160px;
-		background: #DCDCDC;
-		padding: 0;
-		font-size: 0.8em;
-		display: inline;
-		margin: 0;
-	}
-	#Sidebar li li a.link {
-		width: 160px;
-		margin: 2px 0 0 0;
-		text-indent: 15px;
-	}
-	#Sidebar li li a:hover {
-		text-decoration: underline;
-		background: none;
-		color: inherit;
-	}
-	#Sidebar li li a.current,
-	#Sidebar li li a.current:hover {
-	 	text-indent: 15px;
-	 	color: #555;
-		background: #DCDCDC;
-	}
+	 #Sidebar a em {
+	 	font-style: normal;
+	 }
+      #Sidebar li { 
 
-	#Sidebar li li ul {
-		margin: 0px 0 5px 10px;
-		padding-top: 0px;
-		width: 175px;
-	}
-	#Sidebar li li ul .roundWhite {
-		margin-bottom: -10px;
-	}
-	#Sidebar li li li a.link {
-		color: #666;
-		margin: 2px 0 0 10px;
-		font-size: 11px;	
-		text-indent: 8px;
-		background: inherit;
-	}
-	#Sidebar li li li a:hover {
-		width: 172px;
-		border: 0;
-		background: #DCDCDC url(../images/sidebarSubMenuHover.gif) no-repeat center right;
-		text-decoration: underline;
-	}
-	#Sidebar li li li a.current,
-	#Sidebar li li li a.current:hover {
-		width: 173px;
-		color: #fff;
-		position: relative;
-		z-index: 10;
-		font-size: 11px;
-		text-indent: 8px;
-		margin-left: 10px;
-		text-decoration: none;
-		background: #BDBDBD url(../images/sidebarSubMenuCurrent.gif) no-repeat center right;
-	}
-	#Sidebar li li li a.section,
-	#Sidebar li li li a.section:hover {
-		width: 173px;
-		color: #fff;
-		position: relative;
-		z-index: 10;
-		font-size: 11px;
-		text-indent: 8px;
-		margin-left: 10px;
-	}
-	
-#Sidebar h3 { 
-	clear: both; 
-	text-transform: lowercase;
-	color: #fff;
-	font-weight: 700; 
-	font-size: 1.4em; 
-	margin: 0 0 10px 0;
-	line-height: 1.8;
-	background: transparent url(../images/sidebarHeaderSub.gif) repeat-x center left;
-}
-	
-#Sidebar .sidebarBottom {
-	height: 12px;
-	width: 200px;
-	margin-top: -5px;
-	padding-bottom: 5px;
-	background: url(../images/sidebarBottomBg.gif) no-repeat;
-}
+            font-size: 1em; 
 
+            margin: 1px 0 5px 4px;
 
-.middleColumn {
- 	display: block;
- 	margin: 15px 10px 10px 0;
-	background: #E9E9E9;
-	padding: 4px;
-	width: 306px;
-	clear: left;
-}
-	#Sidebar .middleColumn {
-		margin: 0 0 0 8px;
-		display: inline;
-	}
+            list-style: none;
 
-#Search {
-	width: 105px;
-}
-input#Search_Form_SearchForm_Search {
-	width: 110px;
-	padding: 3px;
-	margin-left: -4px;
-	font-size: 1.2em;
-	}
-#Sidebar input.action {
-	font-size: 1.2em;
-	float: right;
-	padding: 1px;
-	margin: -22px 10px 0 0;
-}
+            }
+
+      #Sidebar li a {
+
+            display: block;
+
+            width: 190px;
+
+            text-indent: 8px;
+
+            font-size: 1.2em;
+
+            height: 1.8em;
+
+            line-height: 1.8em;
+
+            color: #898989;
+
+      }
+
+      /* Level 1 
+
+      - We use 3 elements for the nav to get 3 background images applied.
+
+            * span - topleft rounded corner
+
+            * em - bottomleft rounded corner
+
+            * a - arrow on the right
+
+            <a><span><em></em></span></a>
+
+      */
+
+      #Sidebar li a:hover,
+
+      #Sidebar li a.current,
+
+      #Sidebar li a.current:hover {
+
+            background: #DCDCDC url(../images/sidebarSideArrow.gif) no-repeat right center;
+
+            color: #666;
+
+            font-weight: 700;
+
+            text-decoration: none;
+
+      }
+
+      #Sidebar li a.section,
+
+      #Sidebar li a.section:hover {
+
+            background: #DCDCDC;
+
+            font-weight: 700;
+
+            width: 185px; 
+
+      }
+
+      #Sidebar li a.levela:hover span,
+
+      #Sidebar li a.current span,
+
+      #Sidebar li a.section span,
+
+      #Sidebar li a.section:hover span,
+
+      #Sidebar li a.current:hover span {
+
+            background: transparent url(../images/sidebarTopLeftHover.gif) no-repeat left top;
+
+            display: block;
+
+            width: 100%;
+
+            height: 100%;
+
+      } 
+
+      #Sidebar li a.levela:hover em,
+
+      #Sidebar li a.current em,
+
+      #Sidebar li a.section em,
+
+      #Sidebar li a.section:hover em,
+
+      #Sidebar li a.current:hover em {
+
+            background: transparent url(../images/sidebarBottomLeftHover.gif) no-repeat left bottom;
+
+            display: block;
+
+            width: 100%;
+
+            height: 100%;
+
+      }
+
+      #Sidebar li ul {
+
+            height: 100%;
+
+            position: relative;
+
+            margin: -4px 0 0 0;
+
+            width: 185px;
+
+            padding: 4px 0 10px 0;
+
+            background: #DCDCDC url(../images/sidebarSectionBottom.png) no-repeat bottom left;
+
+      }
+
+      #Sidebar li ul li ul {
+
+            background: #DCDCDC;
+
+            margin-left: 0;
+
+      }
+
+      #Sidebar li ul li {
+
+            width: 160px;
+
+            background: #DCDCDC;
+
+            padding: 0;
+
+            font-size: 0.8em;
+
+            display: inline;
+
+            margin: 0;
+
+      }
+
+      #Sidebar li li a.current,
+
+      #Sidebar li li a.section,
+
+      #Sidebar li li a.section:hover,
+
+      #Sidebar li li a.current:hover {
+
+            color: #555;
+
+            font-weight: 700;
+
+            background: #DCDCDC;
+
+      }
+
+      #Sidebar li li ul {
+
+            margin: 0 0 0 10px;
+
+            padding-top: 0;
+
+            width: 175px;
+
+      }
+
+      #Sidebar li li ul .roundWhite {
+
+            margin-bottom: -10px;
+
+      }
+
+      /* Sub Menu */
+
+      #Sidebar li a.levelb {
+
+            font-size: 1.7em;
+
+            text-indent: 8px;
+
+            width: 180px;
+
+            margin-left: 10px;
+
+      }
+
+      
+
+      #Sidebar li a.levelb:hover,
+
+      #Sidebar li li a.current,
+
+      #Sidebar li li a.current:hover,
+
+      #Sidebar li li a.section,
+
+      #Sidebar li li a.section:hover {
+
+            background: #BCBCBC url(../images/sidebarSideArrow2.gif) no-repeat right center;
+
+            width: 180px;
+
+            text-decoration: none;
+
+            display: block;
+
+            color: #fff;
+
+      }
+
+      #Sidebar li a.levelb:hover span,
+
+      #Sidebar li li a.current span,
+
+      #Sidebar li li a.current:hover span,
+
+      #Sidebar li li a.section span,
+
+      #Sidebar li li a.section:hover span {
+
+            background: transparent url(../images/sidebarTopLeftHover2.gif) no-repeat left top;
+
+            display: block;
+
+            width: 100%;
+
+            height: 100%;
+
+      } 
+
+      #Sidebar li a.levelb:hover em,
+
+      #Sidebar li li a.current em,
+
+      #Sidebar li li a.current:hover em,
+
+      #Sidebar li li a.section em,
+
+      #Sidebar li li a.section:hover em {
+
+            background: transparent url(../images/sidebarBottomLeftHover2.gif) no-repeat left bottom;
+
+            display: block;
+
+            width: 100%;
+
+            height: 100%;
+
+      }
 	
 /* Comments
 ******************************************/
@@ -469,10 +556,9 @@ ul#SearchResults li {
 	}
   	#Footer p { 
 		color: #fff;
-		line-height: 3.4em;
-		width: 769px;
 		font-size: 1.1em;
 		text-align: center;
+		margin-top: -0.6em;
 	}
   	#Footer a { 
 	   	color: #fff; 
