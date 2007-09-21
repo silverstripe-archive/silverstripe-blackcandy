@@ -13,7 +13,18 @@ textarea {
 form ul {
 	list-style: none;
 }
-
+.middleColumn {
+ 	display: block;
+ 	margin: 15px 10px 10px 0;
+	background: #E9E9E9;
+	padding: 4px;
+	width: 306px;
+	clear: left;
+}
+	#Sidebar .middleColumn {
+		margin: 0 0 0 8px;
+		display: inline;
+	}
 
 input.text, textarea, select {
 	padding: 2px;
@@ -29,7 +40,7 @@ select {
 
 input.action {
 	padding: 2px;
-	font-size: 1.2em;
+	font-size: 1em;
 	font-family: Verdana, Tahoma, Sans-serif;
 }
 input:focus span, textarea:focus span {
@@ -40,4 +51,18 @@ input.action:hover,
 input.action:focus {
 	cursor: pointer;
 }
-
+#Search {
+	width: 105px;
+}
+input#Search_Form_SearchForm_Search {
+	width: 110px;
+	padding: 3px;
+	margin-left: -4px;
+	font-size: 1.2em;
+	}
+#Sidebar input.action {
+	font-size: 1.2em;
+	float: right;
+	padding: 1px;
+	margin: -22px 10px 0 0;
+}
