@@ -5,12 +5,6 @@
  IE6 Hacks Stylesheet. 
  */
 
-/** for some whack reason IE adds 4px to the height of header so we hide the overflow. **/
-#Header {
-	background: #fff url(../images/header.png) no-repeat;
-	overflow: hidden;
-}
-
 #Sidebar li ul li ul li a {
 	font-size: 0.8em;
 }
@@ -33,11 +27,6 @@
 #Sidebar li li li {
 	font-size: 0.8em;
 }
-#Sidebar .sidebar_Box {
-	background: #EFEFEF;
-}
-#Sidebar h3 {
-	background: url(../images/sidebarHeaderBgTop.gif) no-repeat;}
 
 /** Again IE does not like Margins and padding around my nice forms **/
 label {
