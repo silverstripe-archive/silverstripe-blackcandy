@@ -5,6 +5,7 @@
   <head>
 		<% base_tag %>
 		$MetaTags
+		<link rel="shortcut icon" href="/favicon.ico" />
 		
 		<!--[if IE 6]>
 			<style type="text/css">
