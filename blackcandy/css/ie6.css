@@ -4,8 +4,14 @@
  
  IE6 Hacks Stylesheet. 
  */
-
-#Sidebar li ul li ul li a {
+#Sidebar ul#Menu2 {
+	background: #f00;
+	margin-right: 0;
+}
+#Sidebar ul#Menu2 li a {
+	background: #ff0;
+}
+/*#Sidebar li ul li ul li a {
 	font-size: 0.8em;
 }
 #Sidebar li ul li a.current,
@@ -28,7 +34,7 @@
 	font-size: 0.8em;
 }
 
-/** Again IE does not like Margins and padding around my nice forms **/
+ Again IE does not like Margins and padding around my nice forms **/
 label {
 	margin-bottom: -10px;
 }
