@@ -7,7 +7,7 @@
  
 /* GENERIC STYLES */ 
 .typography * {
-	font-family: verdana, sans-serif;
+	font-family: Verdana, Lucida, sans-serif; 
 }
 
 /* PARAGRAPHS */
@@ -15,10 +15,10 @@
  	color: #666;
  	line-height: 1.6em;
  	font-size: 1.1em;
-	 }
+}
 #Layout p {
  	margin: 10px 5px 5px 0;
-	}
+}
 #Sidebar p {
 	font-size: 1.1em;
  	clear: both;
@@ -38,13 +38,53 @@
 }
 .typography a:hover { 
  	text-decoration: underline;
-	 }
+}
 .typography a:visted { 
  	text-decoration: underline;
-	 }
+}
+
+/* ICONS */
+.typography a[href$=".pdf"],
+.typography a[href$=".PDF"],
+.typography a.pdf {
+	padding: 2px;
+	padding-left: 20px;
+	background: url(../images/icons/page_white_acrobat.png) left center no-repeat;
+}
+.typography a[href$=".doc"],
+.typography a[href$=".DOC"],
+.typography a.doc {
+	padding: 2px;
+	padding-left: 20px;
+	background: url(../images/icons/page_word.png) left center no-repeat;
+}
+.typography a[href$=".xls"],
+.typography a[href$=".XLS"],
+.typography a.xls {
+	padding: 2px;
+	padding-left: 20px;
+	background: url(../images/icons/page_excel.png) left center no-repeat;
+}
+.typography a[href$=".gz"],
+.typography a[href$=".GZ"],
+.typography a[href$=".gzip"],
+.typography a[href$=".GZIP"],
+.typography a[href$=".zip"],
+.typography a[href$=".ZIP"],
+.typography a.archive {
+	padding: 2px;
+	padding-left: 20px;
+	background: url(../images/icons/page_white_zip.png) left center no-repeat;
+}
+.typography a[href$=".exe"],
+.typography a[href$=".EXE"],
+.typography a.application {
+	padding: 2px;
+	padding-left: 20px;
+	background: url(../images/icons/application.png) left center no-repeat;
+}
 
 /* LIST STYLES */
-
 .typography ul, 
 .typography ol {
 	margin: 20px;
