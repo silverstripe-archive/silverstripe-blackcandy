@@ -4,37 +4,26 @@
  
  IE6 Hacks Stylesheet. 
  */
-#Sidebar ul#Menu2 {
-	background: #f00;
-	margin-right: 0;
-}
-#Sidebar ul#Menu2 li a {
-	background: #ff0;
-}
-/*#Sidebar li ul li ul li a {
-	font-size: 0.8em;
-}
-#Sidebar li ul li a.current,
-#Sidebar li ul li a.current:hover {
-	background: #BDBDBD;
-}
-#Sidebar li a:hover {
-	width: 185px;
-}
-#Sidebar li ul li a:hover {
-	background: none;
-	width: 160px;
-}
-	#Sidebar li li li a.current,
-	#Sidebar li li li a.current:hover {
-	 width: 165px;
-	 background: #BDBDBD url(../images/sidebarSubMenuCurrentIE.gif) no-repeat left center;
-	 }
-#Sidebar li li li {
-	font-size: 0.8em;
-}
 
- Again IE does not like Margins and padding around my nice forms **/
+#Sidebar ul#Menu2 li a {
+	width: 185px; /* 196 - 4 - 2 - some random ie bug = 185 */
+}
+	#Sidebar ul#Menu2 li li a {
+		width: 183px;
+	}
+	#Sidebar ul#Menu2 li a:hover,
+    #Sidebar ul#Menu2 li a.current,
+    #Sidebar ul#Menu2 li a.current:hover {
+			background-image: none;
+          background: #DCDCDC;
+    }
+#Sidebar ul#Menu2 li li a.levelb:hover {
+	 background: #BCBCBC;
+}
+#Sidebar ul#Menu2 li li a.current {
+	 background: #BCBCBC;
+}
+/* Again IE does not like Margins and padding around my nice forms **/
 label {
 	margin-bottom: -10px;
 }

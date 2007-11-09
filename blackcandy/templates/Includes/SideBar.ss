@@ -21,7 +21,7 @@
 				 				<ul>
 								 	<span class="roundWhite">
 								  	<% control Children %>
-						  	  			<li><a href="$Link" title="Go to the $Title.XML page" class="$LinkingMode levelb"><span><em>$MenuTitle.LimitCharacters(22)</em></span></a></li>
+						  	  			<li><a href="$Link" title="Go to the $Title.XML page" class="$LinkingMode levelb"><span><em>$MenuTitle</em></span></a></li>
  				 					<% end_control %>
  				 					</span>
 			 				 	</ul>

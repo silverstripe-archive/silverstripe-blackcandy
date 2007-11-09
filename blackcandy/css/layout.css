@@ -194,7 +194,7 @@ p#Remember label {
 	background: #EFEFEF url(../images/sidebarHeader.gif) no-repeat left top; 
 	}
 	#Sidebar ul {
-		margin: 2px 0 5px 8px;
+		margin: 2px 0 5px 3px;
 	}
 	#Sidebar li {
 		margin: 8px 2px;
@@ -216,14 +216,11 @@ p#Remember label {
 		height: 15px;
 		display: block;
 		width: 200px;
-		margin: -5px 0 10px 0;
+		margin: -5px 0 0 0;
 		background: #EFEFEF url(../images/sidebarBottomBg.gif) no-repeat center bottom;
 	}
 	#Sidebar a em {
 		font-style: normal;
-	}
-	ul#Menu2 {
-		margin-right: 10px;
 	}
     ul#Menu2 li { 
             font-size: 0.9em; 
@@ -232,13 +229,19 @@ p#Remember label {
             }
       ul#Menu2 li a {
             display: block;
-            width: 190px;
-            text-indent: 8px;
+            width: 196px;
             font-size: 1.2em;
             height: 1.8em;
             line-height: 1.8em;
             color: #898989;
       }
+	ul#Menu2 li em {
+		padding-left: 8px;
+		display: block;
+	}
+		ul#Menu2 li li em {
+			padding-left: 0;
+		}
       /* Level 1 
       - We use 3 elements for the nav to get 3 background images applied.
             * span - topleft rounded corner
@@ -251,6 +254,7 @@ p#Remember label {
       ul#Menu2 li a.current:hover {
             background: #DCDCDC url(../images/sidebarSideArrow.gif) no-repeat right center;
             color: #666;
+			cursor: pointer;
             text-decoration: none;
       }
 	  ul#Menu2 li a.current {
@@ -260,7 +264,7 @@ p#Remember label {
       ul#Menu2 li a.section:hover {
             background: #DCDCDC;
             font-weight: 700;
-            width: 185px; 
+            width: 193px; 
       }
       ul#Menu2 li a.levela:hover span,
       ul#Menu2 li a.current span,
@@ -286,7 +290,7 @@ p#Remember label {
             height: 100%;
             position: relative;
             margin: -4px 0 0 0;
-            width: 185px;
+            width: 193px;
             padding: 4px 0 10px 0;
             background: #DCDCDC url(../images/sidebarSectionBottom.png) no-repeat bottom left;
       }
@@ -312,7 +316,7 @@ p#Remember label {
       }
       ul#Menu2 li li ul {
             margin: 0 0 0 10px;
-            padding-top: 0;
+            padding: 0;
             width: 175px;
       }
       ul#Menu2 li li ul .roundWhite {
@@ -322,17 +326,16 @@ p#Remember label {
       ul#Menu2 li a.levelb {
             font-size: 1.7em;
             text-indent: 8px;
-            width: 180px;
+            width: 188px;
+			background: transparent;
             margin-left: 10px;
       }
-      
-      ul#Menu2 li a.levelb:hover,
+	  ul#Menu2 li a.levelb:hover,
       ul#Menu2 li li a.current,
       ul#Menu2 li li a.current:hover,
       ul#Menu2 li li a.section,
       ul#Menu2 li li a.section:hover {
             background: #BCBCBC url(../images/sidebarSideArrow2.gif) no-repeat right center;
-            width: 180px;
             text-decoration: none;
             display: block;
             color: #fff;

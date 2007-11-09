@@ -17,3 +17,9 @@ label {
 #Sidebar li li li a {
 	font-size: 0.8em;
 }
+#Sidebar ul#Menu2 li a.levelb {
+	width: 180px;
+}
+#Sidebar ul#Menu2 li a.levelb:hover {
+	width: 188px;
+}
