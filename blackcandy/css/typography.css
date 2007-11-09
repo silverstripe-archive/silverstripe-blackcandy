@@ -49,21 +49,21 @@
 .typography a.pdf {
 	padding: 2px;
 	padding-left: 20px;
-	background: url(../images/icons/page_white_acrobat.png) left center no-repeat;
+	background: url(../images/icons/page_white_acrobat.png) no-repeat left center;
 }
 .typography a[href$=".doc"],
 .typography a[href$=".DOC"],
 .typography a.doc {
 	padding: 2px;
 	padding-left: 20px;
-	background: url(../images/icons/page_word.png) left center no-repeat;
+	background: url(../images/icons/page_word.png) no-repeat left center;
 }
 .typography a[href$=".xls"],
 .typography a[href$=".XLS"],
 .typography a.xls {
 	padding: 2px;
 	padding-left: 20px;
-	background: url(../images/icons/page_excel.png) left center no-repeat;
+	background: url(../images/icons/page_excel.png) no-repeat left center;
 }
 .typography a[href$=".gz"],
 .typography a[href$=".GZ"],
@@ -74,14 +74,14 @@
 .typography a.archive {
 	padding: 2px;
 	padding-left: 20px;
-	background: url(../images/icons/page_white_zip.png) left center no-repeat;
+	background: url(../images/icons/page_white_zip.png) no-repeat left center;
 }
 .typography a[href$=".exe"],
 .typography a[href$=".EXE"],
 .typography a.application {
 	padding: 2px;
 	padding-left: 20px;
-	background: url(../images/icons/application.png) left center no-repeat;
+	background: url(../images/icons/application.png) no-repeat left center;
 }
 
 /* LIST STYLES */
