@@ -25,6 +25,12 @@ form ul {
 		margin: 0 0 0 8px;
 		display: inline;
 	}
+	
+	div.tab .middleColumn {
+		clear: none !important;
+ 		margin: 5px 0;
+		width: 310px !important;
+	}
 
 input.text, textarea, select {
 	padding: 2px;

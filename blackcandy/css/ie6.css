@@ -27,6 +27,19 @@ label {
 	margin-bottom: -10px;
 }
 
+/**
+ * Hack to get the member login form (with tabs) looking good in IE6.
+ * Otherwise, it looks really bad.
+ */
+div.tab .field {
+	clear: none !important;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+	div.tab .field label {
+		margin: 0 !important;
+	}
+
 input.action {
 	padding: 2px !important;
 }
