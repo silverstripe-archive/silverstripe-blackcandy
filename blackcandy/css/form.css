@@ -26,10 +26,10 @@ form ul {
 		display: inline;
 	}
 	
-	div.tab .middleColumn {
+	div.tab .field .middleColumn {
 		clear: none !important;
- 		margin: 5px 0;
-		width: 310px !important;
+ 		margin: 0 !important;
+		width: auto;
 	}
 
 input.text, textarea, select {
