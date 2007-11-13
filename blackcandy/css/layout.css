@@ -435,6 +435,26 @@ ul#SearchResults li {
 	margin: 5px 0;
 	font-size: 1em;
 }
+
+/* Unsubscribe Newsletter
+*****************************************/
+#Unsubscribe_MailingListForm_MailingListForm{
+	min-height:100px;
+}
+
+#Unsubscribe_MailingListForm_MailingListForm p{
+		margin:0 !important;
+		padding:10px;
+}
+	#Unsubscribe_MailingListForm_MailingListForm p label{
+		display: inline;
+	}
+
+#Unsubscribe_MailingListForm_MailingListForm label{
+	margin:0;
+}
+
+
 /* Footer 
 *****************************************/
 
