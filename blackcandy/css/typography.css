@@ -166,10 +166,10 @@
 
 /* TABLE STYLING */
 .typography table {
-
 	margin: 10px;
 	font-size: 1.2em;
-	color: #666;	border-collapse:collapse;
+	color: #666;
+	border-collapse:collapse;
 }
 	.typography td {
 		border:1px solid #999;
