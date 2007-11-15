@@ -39,9 +39,6 @@
 .typography a:hover { 
  	text-decoration: underline;
 }
-.typography a:visited { 
- 	text-decoration: underline;
-}
 
 /* ICONS */
 .typography a[href$=".pdf"],
