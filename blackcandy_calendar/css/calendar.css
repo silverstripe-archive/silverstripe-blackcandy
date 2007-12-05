@@ -53,6 +53,11 @@
 	width: inherit;
 }
 
+#DayView th.categorie {
+	width: inherit;
+	padding: 0 6px 2px;
+}
+
 #YearView td,
 #MonthView td,
 #WeekView td,
