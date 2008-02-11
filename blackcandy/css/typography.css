@@ -7,12 +7,12 @@
  
 /* GENERIC STYLES */ 
 .typography * {
-	font-family: "Lucida Grande", "Lucida Sans", Arial, sans-serif; 
+	font-family: Verdana, Lucida, sans-serif; 
 }
 
 /* PARAGRAPHS */
 .typography p { 
- 	color: #333333;
+ 	color: #666;
  	line-height: 1.6em;
  	font-size: 1.1em;
 }
@@ -33,12 +33,11 @@
 
 /* LINKS */
 .typography a { 
- 	text-decoration: underline; 
-	color: #333333;
+ 	text-decoration: none; 
+	color: #3E91C4;
 }
 .typography a:hover { 
- 	text-decoration: none;
-	color: #333333;
+ 	text-decoration: underline;
 }
 
 /* ICONS */
@@ -100,6 +99,7 @@
 .typography h2 { 
 	color: #4EA3D7; 
 	margin: 15px 0;
+	clear: both;
 	font-weight: 300;
 	font-family: Tahoma, Verdana, sans-serif;
 }
