@@ -6,43 +6,35 @@
 		<% base_tag %>
 		$MetaTags
 		<link rel="shortcut icon" href="/favicon.ico" />
-		
-		<!--[if IE 6]>
-			<style type="text/css">
-			 @import url(themes/blackcandy/css/ie6.css);
-			</style> 
-		<![endif]-->
-		
-		<!--[if IE 7]>
-			<style type="text/css">
-			 @import url(themes/blackcandy/css/ie7.css);
-			</style> 
-		<![endif]-->
 	</head>
 <body>
-<div id="BgContainer">
 	<div id="Container">
 		<div id="Header">
-	   		<h1>Your Site Name</h1>
-	    	<p>your site&#39;s tagline here</p>
+	   		<h1><a href="./" title="Grow Wellington - Working for business success"><img src="themes/gwgtn/images/grow-wellington-logo.jpg" alt="Grow Wellington - Working for business success" /></a></h1>
+			$SearchForm
 		</div>
-		
-		<div id="Navigation">
-			<% include Navigation %>
-	  	</div>
-	  	
-	  	<div class="clear"><!-- --></div>
-		
 		<div id="Layout">
-		  $Layout
+			<div id="Navigation">
+				<% include Navigation %>
+		  	</div>
+			<div id="SideBar">
+				<% include SideBar %>
+			</div>
+			<div id="Content">
+				<% if Page(home) %><% else %>
+				<% if Children %>
+				<div id="Menu2">
+					<ul>
+					  	<% control Menu(2) %>
+							<li class="$LinkingMode"><a href="$Link" title="Go to the $Title.XML page" class="$LinkingMode"><span>$MenuTitle</span></a><% if Last %><% else %>&nbsp;|&nbsp;<% end_if %></li> 
+					  	<% end_control %>
+					</ul>
+				</div>
+				<% end_if %><% end_if %>
+				<div class="typography">$Layout</div>
+			</div>
+			<div id="Footer">&nbsp;</div>
 		</div>
-		
-	   <div class="clear"><!-- --></div>
 	</div>
-	<div id="Footer">
-		<% include Footer %>
-	</div> 
-</div>
-
 </body>
 </html>

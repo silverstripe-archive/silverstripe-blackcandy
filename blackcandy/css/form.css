@@ -13,13 +13,15 @@ textarea {
 form ul {
 	list-style: none;
 }
+form .label {
+	float: left;
+	width: 150px;
+	padding: 4px;
+}
 .middleColumn {
  	display: block;
- 	margin: 15px 10px 10px 0;
-	background: #E9E9E9;
+	margin-left: 160px;
 	padding: 4px;
-	width: 306px;
-	clear: left;
 }
 	#Sidebar .middleColumn {
 		margin: 0 0 0 8px;
@@ -58,17 +60,46 @@ input.action:focus {
 	cursor: pointer;
 }
 #Search {
-	width: 105px;
+	float: left;
+	width: 114px;
+	margin: 0px;
 }
-input#Search_Form_SearchForm_Search {
-	width: 110px;
-	padding: 3px;
-	margin-left: -4px;
+form#SearchForm_SearchForm {
 	font-size: 1.2em;
+}
+
+	#Header form#SearchForm_SearchForm input.text {
+		float: left;
+		width: 114px;
+		padding: 7px 0px 7px 0px;
+		margin: 0px;
+		text-align: center;
+		background: #ffffff url(../images/search_bg.gif) top left no-repeat;
+		border: none;
 	}
+	#Header form#SearchForm_SearchForm .middleColumn {
+		clear: none;
+		display: block;
+		margin: 4px 0px 0px 0px;
+		padding: 0px;
+	}
+	#Header form#SearchForm_SearchForm input.action {
+		display: block;
+		float: left;
+		font-size: 1.2em;
+		text-transform: uppercase;
+		border: 0px;
+		height: 30px;
+		margin: 2px 0px;
+	}
+	#Header form#SearchForm_SearchForm input.action img {
+		display: inline;
+	}
+
 #Sidebar input.action {
 	font-size: 1.2em;
 	float: right;
 	padding: 1px;
-	margin: -22px 10px 0 0;
+	margin: 0px 10px 0 0;
+	border: 1px solid red;
 }
