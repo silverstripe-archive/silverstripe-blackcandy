@@ -194,8 +194,8 @@
 	float:left;
 }
 .typography img.leftAlone {
-	float: left;
-	margin-right: 100%;
+	float:left;
+	margin-right:100%;
 }
 .typography img.center {
 	float:none;
