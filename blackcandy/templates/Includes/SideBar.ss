@@ -18,22 +18,20 @@
 	  				<% if Children %>
 						<ul class="sub">
 							<li>
-				 				<ul>
-								 	<span class="roundWhite">
-								  	<% control Children %>
-						  	  			<li><a href="$Link" title="Go to the $Title.XML page" class="$LinkingMode levelb"><span><em>$MenuTitle.XML</em></span></a></li>
- 				 					<% end_control %>
- 				 					</span>
-			 				 	</ul>
-			 				 </li>
-					  	</ul>
+								<ul class="roundWhite">
+									<% control Children %>
+										<li><a href="$Link" title="Go to the $Title.XML page" class="$LinkingMode levelb"><span><em>$MenuTitle.XML</em></span></a></li>
+									<% end_control %>
+								</ul>
+							</li>
+						</ul>
 			 		 <% end_if %>
 				<% end_if %> 
 			</li> 
   			<% end_control %>
   		</ul>
 		<div class="clear"></div>
-		</div>
+	</div>
 	<div class="sidebarBottom"></div>
 </div>
   
