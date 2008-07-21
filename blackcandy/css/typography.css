@@ -98,10 +98,9 @@
 	margin: 20px;
 	color: #666;
 }
-
 	.typography li {
 		margin: 5px 10px;
-		font-size: 1.2em;
+		font-size: 1.1em;
 	}
 		.typography li li {
 			font-size: 0.9em;
@@ -171,7 +170,7 @@
 -------------------------------------------- */
 .typography table {
 	margin: 10px;
-	font-size: 1.2em;
+	font-size: 1.1em;
 	color: #666;
 	border-collapse:collapse;
 }
