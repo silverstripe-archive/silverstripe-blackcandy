@@ -1,99 +1,114 @@
-/**
-  SilverStripe Black Candy Theme
-  http://www.silverstripe.com
- 
-  This typography file is included in the WYSIWYG editor
+/** 
+ * SilverStripe Black Candy Theme
+ * http://www.silverstripe.com
+ *
+ * This typography file is included in the WYSIWYG editor and the front end. It provides
+ * a place to add link styles and font styles you would like in the CMS and the Front End.
  */
+
  
-/* GENERIC STYLES */ 
+/* GENERIC STYLES 
+-------------------------------------------- */
+ 
 .typography * {
-	font-family: Verdana, Lucida, sans-serif; 
+	font-family: Verdana, Lucida, Arial, sans-serif; 
 }
 
-/* PARAGRAPHS */
+/* PARAGRAPHS 
+-------------------------------------------- */
 .typography p { 
  	color: #666;
  	line-height: 1.6em;
  	font-size: 1.1em;
 }
-#Layout p {
- 	margin: 10px 5px 5px 0;
-}
-#Sidebar p {
-	font-size: 1.1em;
- 	clear: both;
- 	margin: 10px 10px 0 10px;
-}
+
+/* QUOTES
+-------------------------------------------- */
 .typography blockquote {
 	margin: 10px;
 	font-size: 1.4em;
 	color: #777;
 	font-style: italic;
 }	
+.typography q {
+	display:block;
+	font-size: 0.8em;
+	margin: 1em 1em;
+	padding: 0.5em;
+	border: 1px #ccc solid;
+}
 
-/* LINKS */
+/* LINKS 
+-------------------------------------------- */
+
 .typography a { 
  	text-decoration: none; 
 	color: #3E91C4;
 }
-.typography a:hover { 
- 	text-decoration: underline;
-}
+	.typography a:hover { 
+ 		text-decoration: underline;
+	}
 
-/* ICONS */
-.typography a[href$=".pdf"],
-.typography a[href$=".PDF"],
-.typography a.pdf {
-	padding: 2px;
-	padding-left: 20px;
-	background: url(../images/icons/page_white_acrobat.png) no-repeat left center;
-}
-.typography a[href$=".doc"],
-.typography a[href$=".DOC"],
-.typography a.doc {
-	padding: 2px;
-	padding-left: 20px;
-	background: url(../images/icons/page_word.png) no-repeat left center;
-}
-.typography a[href$=".xls"],
-.typography a[href$=".XLS"],
-.typography a.xls {
-	padding: 2px;
-	padding-left: 20px;
-	background: url(../images/icons/page_excel.png) no-repeat left center;
-}
-.typography a[href$=".gz"],
-.typography a[href$=".GZ"],
-.typography a[href$=".gzip"],
-.typography a[href$=".GZIP"],
-.typography a[href$=".zip"],
-.typography a[href$=".ZIP"],
-.typography a.archive {
-	padding: 2px;
-	padding-left: 20px;
-	background: url(../images/icons/page_white_zip.png) no-repeat left center;
-}
-.typography a[href$=".exe"],
-.typography a[href$=".EXE"],
-.typography a.application {
-	padding: 2px;
-	padding-left: 20px;
-	background: url(../images/icons/application.png) no-repeat left center;
-}
+	/* LINK ICONS - shows type of file
+	------------------------------------ */
+	.typography a[href$=".pdf"],
+	.typography a[href$=".PDF"],
+	.typography a.pdf {
+		padding: 2px;
+		padding-left: 20px;
+		background: url(../images/icons/page_white_acrobat.png) no-repeat left center;
+	}
+	.typography a[href$=".doc"],
+	.typography a[href$=".DOC"],
+	.typography a.doc {
+		padding: 2px;
+		padding-left: 20px;
+		background: url(../images/icons/page_word.png) no-repeat left center;
+	}
+	.typography a[href$=".xls"],
+	.typography a[href$=".XLS"],
+	.typography a.xls {
+		padding: 2px;
+		padding-left: 20px;
+		background: url(../images/icons/page_excel.png) no-repeat left center;
+	}
+	.typography a[href$=".gz"],
+	.typography a[href$=".GZ"],
+	.typography a[href$=".gzip"],
+	.typography a[href$=".GZIP"],
+	.typography a[href$=".zip"],
+	.typography a[href$=".ZIP"],
+	.typography a.archive {
+		padding: 2px;
+		padding-left: 20px;
+		background: url(../images/icons/page_white_zip.png) no-repeat left center;
+	}
+	.typography a[href$=".exe"],
+	.typography a[href$=".EXE"],
+	.typography a.application {
+		padding: 2px;
+		padding-left: 20px;
+		background: url(../images/icons/application.png) no-repeat left center;
+	}
 
-/* LIST STYLES */
+/* LIST STYLES 
+-------------------------------------------- */
 .typography ul, 
 .typography ol {
 	margin: 20px;
 	color: #666;
 }
 
-.typography li {
-	margin: 5px 10px;
-	font-size: 1.2em;
-}
-
-/* HEADER STYLES */
+	.typography li {
+		margin: 5px 10px;
+		font-size: 1.2em;
+	}
+		.typography li li {
+			font-size: 0.9em;
+		}
+		
+/* HEADER STYLES 
+-------------------------------------------- */
 
 .typography h1,
 .typography h2 { 
@@ -103,13 +118,13 @@
 	font-weight: 300;
 	font-family: Tahoma, Verdana, sans-serif;
 }
+
 .typography h1 {
 	font-size: 2.4em;
 }
 .typography h2 { 
  	font-size: 2em; 
-}
-	
+}	
 .typography h3 {
 	color: #222;
 	margin: 25px 0 15px 0;
@@ -140,7 +155,8 @@
 	margin: 10px;
 }
 
-/* ADRESS STYLES */	
+/* PRE STYLES 
+-------------------------------------------- */	
 .typography pre {
 	font-family:"Courier New",Courier;
 	display:block;
@@ -150,73 +166,53 @@
 	border:1px #ccc solid;
 	background:#eee;;
 }
-.typography label {
- 	display: block;
-	margin: 10px 0 -10px 0;
-	color: #777;
-}
 
-.typography q {
-	display:block;
-	font-size:0.8em;
-	margin:1em 1em;
-	padding:0.5em;
-	border:1px #ccc solid;
-}
-
-/* TABLE STYLING */
+/* TABLE STYLING 
+-------------------------------------------- */
 .typography table {
 	margin: 10px;
 	font-size: 1.2em;
 	color: #666;
 	border-collapse:collapse;
 }
-	.typography td {
-		border:1px solid #999;
-		padding:5px;
-	}
+	.typography tr {}
+	
+		.typography td {
+			border:1px solid #999;
+			padding:5px;
+		}
 
-/* WYSIWYG EDITOR ALIGNMENT CLASSES */
+/* WYSIWYG EDITOR ALIGNMENT CLASSES 
+-------------------------------------------- */
 .typography .left {
-	text-align:left;
+	text-align: left;
 }
 .typography .center {
-	text-align:center;
+	text-align: center;
 }
 .typography .right {
-	text-align:right;
-}
-.typography img.right {
-	float:right;
-	margin-left:20px;
-}
-.typography img.left {
-	float:left;
-}
-.typography img.leftAlone {
-	float: left;
-	margin-right: 100%;
-}
-.typography img.center {
-	float:none;
-	margin-left:auto;
-	margin-right:auto;
-	display:block;
+	text-align: right;
 }
 
-/* FORMS */
-.typography label {
-	font-size: 1em;
+/* IMAGES 
+-------------------------------------------- */
+.typography img {
+	border: 4px solid #E9E9E9;
 }
-.typography input.text, .typography textarea {
-	font-size: 1em;
-}
-/* Extra redundancy */
-.typography p.MsoNormal, .typography p.MsoBodyText {
-	margin: 0;
-}
-
-.typography #Content p.authorDate {
-	color: #444;
-	margin-top: -15px;
+	.typography img.right {
+		float: right;
+		margin-left: 20px;
+	}
+	.typography img.left {
+		float: left;
+	}
+	.typography img.leftAlone {
+		float: left;
+		margin-right: 100%;
+	}
+	.typography img.center {
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
 	}
