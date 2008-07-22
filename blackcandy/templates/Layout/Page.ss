@@ -13,8 +13,6 @@
 		$Content
 		$Form
 		$PageComments
-		$DisplayWeather
-		$RandomPoll
 	<% if Menu(2) %>
 		</div>
 	<% end_if %>

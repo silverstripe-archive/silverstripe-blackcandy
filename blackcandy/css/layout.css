@@ -186,15 +186,6 @@ p#Remember label {
 	border-bottom: 1px solid #eee;
 }
 
-#Layout p {
- 	margin: 10px 5px 5px 0;
-}
-#Sidebar p {
-	font-size: 1.1em;
- 	clear: both;
- 	margin: 10px 10px 0 10px;
-}
-
 .typography #Content p.authorDate {
 	color: #444;
 	margin-top: -15px;
@@ -241,6 +232,11 @@ p#Remember label {
 	}
 	#Sidebar a em {
 		font-style: normal;
+	}
+	#Sidebar p {
+		font-size: 11px;
+	 	clear: both;
+	 	margin: 10px 10px 0 10px;
 	}
 	
 	/* MENU2 */

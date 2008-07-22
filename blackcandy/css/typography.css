@@ -18,8 +18,9 @@
 -------------------------------------------- */
 .typography p { 
  	color: #666;
- 	line-height: 1.6em;
- 	font-size: 1.1em;
+ 	line-height: 18px;
+ 	font-size: 11px;
+	margin: 0 0 18px 0;
 }
 
 /* QUOTES
@@ -95,15 +96,15 @@
 -------------------------------------------- */
 .typography ul, 
 .typography ol {
-	margin: 20px;
+	margin: 0 0 18px 24px;
 	color: #666;
 }
 	.typography li {
 		margin: 5px 10px;
-		font-size: 1.1em;
+		font-size: 11px;
 	}
 		.typography li li {
-			font-size: 0.9em;
+			font-size: 10px;
 		}
 		
 /* HEADER STYLES 
@@ -112,46 +113,45 @@
 .typography h1,
 .typography h2 { 
 	color: #4EA3D7; 
-	margin: 15px 0;
-	clear: both;
+	margin: 0 0 18px 0;
 	font-weight: 300;
 	font-family: Tahoma, Verdana, sans-serif;
 }
 
 .typography h1 {
-	font-size: 2.4em;
+	font-size: 24px;
 }
 .typography h2 { 
- 	font-size: 2em; 
+ 	font-size: 20px; 
 }	
 .typography h3 {
 	color: #222;
-	margin: 25px 0 15px 0;
+	margin: 0 0 18px 0;
 	font-weight: 300;
 	clear: both;
-	font-size: 1.8em;
+	font-size: 18px;
 }
 .typography h4 {
-	font-size: 1.6em;
+	font-size: 16px;
 	color: #222;
 	width: 95%;
 	clear: both;
 	font-weight: 300;
-	line-height: 1.5em;
+	line-height: 18px;
 	border-bottom: 1px solid #ccc;
-	margin: 25px 0 15px 0;
+	margin: 0 0 16px 0;
 }
 .typography h5 {
-	font-size: 1.4em;
+	font-size: 14px;
 	color: #222;
-	font-weight: 300;
-	margin: 10px 0;
+	font-weight: 700;
+	margin: 0 0 12px 0;
 }
 .typography h6 {
-	font-size: 1.2em;
+	font-size: 13px;
 	color: #555;
 	line-height: 1.4em;
-	margin: 10px;
+	margin: 0 0 12px 0;
 }
 
 /* PRE STYLES 
@@ -169,8 +169,8 @@
 /* TABLE STYLING 
 -------------------------------------------- */
 .typography table {
-	margin: 10px;
-	font-size: 1.1em;
+	margin: 0 0 18px 0;
+	font-size: 11px;
 	color: #666;
 	border-collapse:collapse;
 }
@@ -196,7 +196,7 @@
 /* IMAGES 
 -------------------------------------------- */
 .typography img {
-	border: 4px solid #E9E9E9;
+	border: none;
 }
 	.typography img.right {
 		float: right;
