@@ -154,42 +154,6 @@ caption, th, td {
 		margin: 0;
 	}
 
-/* MESSAGEBOXS
---------------------------------------------- */
-.message {
-	margin: 15px;
-	padding: 5px;
-	width: 92%;
-	color: #979908;
-	border: 4px solid #F7F8B4;
-	background: #FFFFEA;
-}
-span.middleColumn .message {
-	margin: 4px 0 0 3px;
-}
-.required {
-	margin: 4px 0 0 3px;
-	padding: 5px;
-	width: 92%;
-	color: #DC1313;
-	border: 4px solid #FF7373;
-	background: #FED0D0;
-}
-
-
-
-p#Remember label {
-	margin: -24px 0 0 20px;
-	text-align: left;
-}
-.entry {
-	border-bottom: 1px solid #eee;
-}
-
-.typography #Content p.authorDate {
-	color: #444;
-	margin-top: -15px;
-	}
 
 /* SIDEBAR
 -------------------------------------- */
@@ -452,6 +416,42 @@ ul#SearchResults {
 		font-size: 1em;
 	}
 
+/* MESSAGEBOXS
+--------------------------------------------- */
+.message {
+	margin: 15px;
+	padding: 5px;
+	width: 92%;
+	color: #979908;
+	border: 4px solid #F7F8B4;
+	background: #FFFFEA;
+}
+span.middleColumn .message {
+	margin: 4px 0 0 3px;
+}
+.required {
+	margin: 4px 0 0 3px;
+	padding: 5px;
+	width: 92%;
+	color: #DC1313;
+	border: 4px solid #FF7373;
+	background: #FED0D0;
+}
+
+
+
+p#Remember label {
+	margin: -24px 0 0 20px;
+	text-align: left;
+}
+.entry {
+	border-bottom: 1px solid #eee;
+}
+
+.typography #Content p.authorDate {
+	color: #444;
+	margin-top: -15px;
+	}
 /* UNSUBSCRIBE NEWSLETTER
 ------------------------------------------------ */
 #Unsubscribe_MailingListForm_MailingListForm{
