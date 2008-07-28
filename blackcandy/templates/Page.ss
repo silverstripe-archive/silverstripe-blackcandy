@@ -23,7 +23,7 @@
 <div id="BgContainer">
 	<div id="Container">
 		<div id="Header">
-	   		<h1>Josh Test</h1>
+	   	<h1>Your Site Name</h1>
 	    	<p>your site&#39;s tagline here</p>
 		</div>
 		
