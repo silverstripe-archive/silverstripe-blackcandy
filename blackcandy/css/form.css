@@ -48,7 +48,16 @@ form ul {
  		margin: 0 !important;
 		width: auto;
 	}
-
+	
+	.middleColumn .middleColumn {
+		margin-left: 0;
+		margin-right: 0;
+		padding: 0;
+	}
+	
+	.middleColumn .message {
+		margin: 0;
+	}
 /* INPUT BOXS
 ---------------------------------------- */
 
