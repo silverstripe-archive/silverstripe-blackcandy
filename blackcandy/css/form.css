@@ -94,6 +94,9 @@ select {
 	font-size: 1em;
 }
 
+label.right {
+	display:inline;
+}
 /* SEARCH BOX 
 ---------------------------------------- */
 #Search {
