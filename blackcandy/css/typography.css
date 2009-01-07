@@ -197,20 +197,36 @@
 .typography img {
 	border: none;
 }
-	.typography img.right {
+	.typography img.right,
+	.typography div.image.right {
 		float: right;
 		margin-left: 20px;
 	}
-	.typography img.left {
+	
+	.typography .image {
+		border: 1px solid #aaa;
+		padding: 5px;
+	}
+	
+	.typography img.left,
+	.typography div.image.left {
 		float: left;
 	}
-	.typography img.leftAlone {
+	.typography img.leftAlone,
+	.typography div.image.leftAlone {
 		float: left;
 		margin-right: 100%;
 	}
-	.typography img.center {
+	.typography img.center,
+	.typography div.image.center {
 		float: none;
 		margin-left: auto;
 		margin-right: auto;
 		display: block;
+	}
+	
+	.typography .caption {
+		font-weight: bold;
+		text-align: center;
+		color: #666;
 	}
