@@ -197,7 +197,8 @@
 .typography img {
 	border: none;
 }
-	.typography div.img.right {
+	.typography img.right,
+	.typography div.image.right {
 		float: right;
 		margin-left: 20px;
 	}
@@ -207,14 +208,17 @@
 		padding: 5px;
 	}
 	
-	.typography div.img.left {
+	.typography img.left,
+	.typography div.image.left {
 		float: left;
 	}
-	.typography div.img.leftAlone {
+	.typography img.leftAlone,
+	.typography div.image.leftAlone {
 		float: left;
 		margin-right: 100%;
 	}
-	.typography div.img.center {
+	.typography img.center,
+	.typography div.image.center {
 		float: none;
 		margin-left: auto;
 		margin-right: auto;
