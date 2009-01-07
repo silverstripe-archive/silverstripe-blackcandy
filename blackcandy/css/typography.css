@@ -198,27 +198,27 @@
 	border: none;
 }
 	.typography img.right,
-	.typography div.image.right {
+	.typography div.captionImage.right {
 		float: right;
 		margin-left: 20px;
 	}
 	
-	.typography .image {
+	.typography .captionImage {
 		border: 1px solid #aaa;
 		padding: 5px;
 	}
 	
 	.typography img.left,
-	.typography div.image.left {
+	.typography div.captionImage.left {
 		float: left;
 	}
 	.typography img.leftAlone,
-	.typography div.image.leftAlone {
+	.typography div.captionImage.leftAlone {
 		float: left;
 		margin-right: 100%;
 	}
 	.typography img.center,
-	.typography div.image.center {
+	.typography div.captionImage.center {
 		float: none;
 		margin-left: auto;
 		margin-right: auto;
