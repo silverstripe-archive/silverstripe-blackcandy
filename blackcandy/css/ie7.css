@@ -23,3 +23,14 @@ label {
 #Sidebar ul#Menu2 li a.levelb:hover {
 	width: 188px;
 }
+
+/* SEARCH FORM 
+-----------------------------------------------*/
+html body #SearchForm_SearchForm {
+	width: 240px;
+	margin-top: -5px;
+}
+html body #SearchForm_SearchForm #SearchForm_SearchForm_action_results {
+	float: right;
+	margin-top: -25px;
+}

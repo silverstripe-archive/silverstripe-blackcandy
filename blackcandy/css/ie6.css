@@ -53,3 +53,14 @@ input.action {
 span.middleColumn {
 	display: inline-block;
 }
+
+/* SEARCH FORM 
+-----------------------------------------------*/
+html body #SearchForm_SearchForm {
+	width: 240px;
+	margin-top: -5px;
+}
+html body #SearchForm_SearchForm #SearchForm_SearchForm_action_results {
+	float: right;
+	margin-top: -25px;
+}
