@@ -10,14 +10,13 @@
 ---------------------------------------- */
 fieldset {
 	border: 0;
-	font-size: 1.2em;
 }
 
 /* ACTION BUTTONS
 ---------------------------------------- */
 input.action {
 	padding: 2px;
-	font-size: 1em;
+	font-size: 11px ;
 	font-family: Verdana, Tahoma, Sans-serif;
 }
 input.action:hover,
@@ -65,14 +64,14 @@ input.text, textarea, select {
 	padding: 2px;
 	border: 1px solid #A7A7A7;
 	color: #000;
-	font-size: 1.1em;
+	font-size: 12px;
 	font-weight: bold;
 	width: 300px;
 }
 
 textarea {
 	font-family: Verdana, Tahoma, sans-serif;
-	font-size: 1.2em;
+	font-size: 12px;
 }
 input:focus span, textarea:focus span {
 	border: 3px solid #000;
@@ -91,7 +90,7 @@ select {
  	display: block;
 	margin: 10px 0 -10px 0;
 	color: #777;
-	font-size: 1em;
+	font-size: 12px;
 }
 
 label.right {
@@ -106,10 +105,10 @@ label.right {
 		width: 110px;
 		padding: 3px;
 		margin-left: -4px;
-		font-size: 1.2em;
+		font-size: 12px;
 	}
 #Sidebar input.action {
-	font-size: 1.2em;
+	font-size: 12px;
 	float: right;
 	padding: 1px;
 	margin: -22px 10px 0 0;
