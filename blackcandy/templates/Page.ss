@@ -3,7 +3,7 @@
 
   <head>
 		<% base_tag %>
-		<title>$Title &raquo; Your Site Name</title>
+		<title>$MetaTitle &raquo; Your Site Name</title>
 		$MetaTags(false)
 		<link rel="shortcut icon" href="/favicon.ico" />
 		
