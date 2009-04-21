@@ -3,7 +3,7 @@
 
   <head>
 		<% base_tag %>
-		<title>$MetaTitle &raquo; Your Site Name</title>
+		<title><% if MetaTitle %>$MetaTitle<% else %>$Title<% end_if %> &raquo; Your Site Name</title>
 		$MetaTags(false)
 		<link rel="shortcut icon" href="/favicon.ico" />
 		
