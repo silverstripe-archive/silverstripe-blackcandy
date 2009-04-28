@@ -374,7 +374,7 @@ caption, th, td {
 
 		.actionLinks li {
 		   display: inline;
-		   border-right: 1px solid;
+		   border-right: 1px solid #ddd;
 		}
 			.actionLinks li a {
 				padding-right: 3px;
