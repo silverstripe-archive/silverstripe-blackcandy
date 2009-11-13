@@ -3,7 +3,7 @@
 
   <head>
 		<% base_tag %>
-		<title>$Title &raquo; Your Site Name</title>
+		<title>$Title &raquo; $SiteConfig.Title</title>
 		$MetaTags(false)
 		<link rel="shortcut icon" href="/favicon.ico" />
 		
@@ -28,8 +28,8 @@
 	<div id="Container">
 		<div id="Header">
 			$SearchForm
-	   		<h1>Your Site Name</h1>
-	    	<p>your site&#39;s tagline here</p>
+	   		<h1>$SiteConfig.Title</h1>
+	    	<p>$SiteConfig.Tagline</p>
 		</div>
 		
 		<div id="Navigation">
