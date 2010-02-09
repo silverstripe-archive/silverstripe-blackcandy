@@ -26,6 +26,7 @@
 <body>
 <div id="BgContainer">
 	<div id="Container">
+	<% cacheblock 'blackcandy_header', ID, Aggregate(SiteTree).Max(LastEdited), SiteConfig.LastEdited %>
 		<div id="Header">
 			$SearchForm
 	   		<h1>$SiteConfig.Title</h1>
@@ -37,6 +38,7 @@
 	  	</div>
 	  	
 	  	<div class="clear"><!-- --></div>
+	<% end_cacheblock %>
 		
 		<div id="Layout">
 		  $Layout
