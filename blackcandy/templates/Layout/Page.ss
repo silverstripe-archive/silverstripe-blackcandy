@@ -1,5 +1,4 @@
 <div class="typography">
-	<% cacheblock 'blackcandy_content', ID, Aggregate(Page).Max(LastEdited) %>
 	<% if Menu(2) %>
 		<% include SideBar %>
 		<div id="Content">
@@ -17,6 +16,4 @@
 	<% if Menu(2) %>
 		</div>
 	<% end_if %>
-	
-	<% end_cacheblock %>
 </div>
