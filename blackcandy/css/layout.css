@@ -396,6 +396,7 @@ caption, th, td {
 }
 #PageComments p {
 	font-size: 1em;
+	margin: 8px 0;
 }
 	#PageComments p.info {
 		color: #999;
@@ -404,6 +405,11 @@ caption, th, td {
 		line-height: 1em;
 		font-size: 0.9em;
 	}
+
+
+#PageCommentInterface_Form_PostCommentForm_action_postcomment {
+	margin-bottom: 20px;
+}
 
 /* SEARCH RESULTS STYLES
 ------------------------------------------------ */
