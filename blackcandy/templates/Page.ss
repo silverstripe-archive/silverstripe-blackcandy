@@ -3,7 +3,7 @@
 
   <head>
 		<% base_tag %>
-		<title>$Title &raquo; $SiteConfig.Title</title>
+		<title><% if MetaTitle %>$MetaTitle<% else %>$Title<% end_if %> &raquo; $SiteConfig.Title</title>
 		$MetaTags(false)
 		<link rel="shortcut icon" href="/favicon.ico" />
 		
