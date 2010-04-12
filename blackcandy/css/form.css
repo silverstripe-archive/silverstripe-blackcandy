@@ -57,6 +57,7 @@ form ul {
 	.middleColumn .message {
 		margin: 0;
 	}
+	
 /* INPUT BOXS
 ---------------------------------------- */
 
@@ -95,23 +96,6 @@ select {
 
 label.right {
 	display:inline;
-}
-/* SEARCH BOX 
----------------------------------------- */
-#Search {
-	width: 105px;
-}
-	input#Search_Form_SearchForm_Search {
-		width: 110px;
-		padding: 3px;
-		margin-left: -4px;
-		font-size: 12px;
-	}
-#Sidebar input.action {
-	font-size: 12px;
-	float: right;
-	padding: 1px;
-	margin: -22px 10px 0 0;
 }
 
 /* CHECKBOXES
