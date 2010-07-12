@@ -78,6 +78,31 @@ input:focus span, textarea:focus span {
 	border: 3px solid #000;
 }
 
+form .date input.month,
+form .date input.day,
+form .date input.year {
+	width: auto;
+}
+
+form .datetime .clear {
+	clear: both;
+}
+
+form .datetime .date,
+form .datetime .time {
+	float: left;
+	clear: none;
+	width: auto;
+}
+	form .datetime .middleColumn .middleColumn {
+		width: auto;
+	}
+	form .datetime .date input,
+	form .datetime .time input {
+		width: auto;
+	}
+
+
 /* SELECT DROPDOWN
 ---------------------------------------- */
 
