@@ -16,7 +16,11 @@
 	      <% end_control %>
 	    </ul>
 	  <% else %>
-	    <p>Sorry, your search query did not return any results.</p>
+	    <p>
+				<%-- Example of a translatable string (see http://doc.silverstripe.org/i18n) --%>
+				<% _t("Page_results.ss.NORESULTS", "Sorry, your search query did not return any results.") %>
+				<%-- By the way, template comments marked like this will be excluded from the HTML output --%>
+			</p>
 	  <% end_if %>
 
 	  <% if Results.MoreThanOnePage %>
