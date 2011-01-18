@@ -8,7 +8,7 @@
 	  	<% include BreadCrumbs %>
 	<% end_if %>
 
-		<h2>$Title</h2>
+		<h2>Test 2 (VARIATION B)</h2>
 	
 This is variation B. Note the content is hardcoded in the template, it doesn't come from the Page.
 		$Form
