@@ -8,10 +8,9 @@
 	  	<% include BreadCrumbs %>
 	<% end_if %>
 
-<h2>This is variation B, using an alternate template</h2>
 		<h2>$Title</h2>
 	
-		$Content
+This is variation B. Note the content is hardcoded in the template, it doesn't come from the Page.
 		$Form
 		$PageComments
 	<% if Menu(2) %>
