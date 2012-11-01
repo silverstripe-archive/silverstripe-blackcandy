@@ -1,0 +1,17 @@
+{
+    "name": "silverstripe-themes/blackcandy",
+    "description": "The SilverStripe BlackCandy Theme (default SilverStripe 2.x theme)",
+    "type": "silverstripe-theme",
+    "keywords": ["silverstripe", "theme"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "SilverStripe",
+            "homepage": "http://www.silverstripe.org"
+        }
+    ],
+    "require": {
+        "composer/installers": "*",
+        "silverstripe/framework": "2.4.x-dev"
+    }
+}
